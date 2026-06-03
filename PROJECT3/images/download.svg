@@ -1,0 +1,27 @@
+<svg width="90" height="90" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd6c9"></stop>
+      <stop offset="100%" stop-color="#f7a8d7"></stop>
+    </radialGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"></feGaussianBlur>
+      <feMerge>
+        <feMergeNode in="blur"></feMergeNode>
+        <feMergeNode in="SourceGraphic"></feMergeNode>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer Glow Ring -->
+  <circle cx="50" cy="50" r="38" fill="none" stroke="#b43cff" stroke-width="6" opacity="0.7" filter="url(#glow)"></circle>
+
+  <!-- Main Circle -->
+  <circle cx="50" cy="50" r="32" fill="url(#bg)" stroke="#d76dff" stroke-width="2"></circle>
+
+  <!-- Download Arrow -->
+  <path d="M50 28 V58" stroke="#b00030" stroke-width="4" stroke-linecap="round"></path>
+
+  <path d="M38 48 L50 60 L62 48" fill="none" stroke="#b00030" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
