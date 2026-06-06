@@ -171,6 +171,10 @@
      animation: bounce 1s;
  }
 
+ .c1 h2{
+    color: white;
+ }
+
  .cards {
      justify-content: center;
      display: flex;
