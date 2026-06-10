@@ -10,8 +10,8 @@
  }
 
  .a1 {
-     background:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-      url(images/logo1.png) no-repeat center/cover;
+     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+         url(images/logo1.png) no-repeat center/cover;
      height: 735px;
  }
 
@@ -125,11 +125,7 @@
      padding: 30px 60px;
  }
 
- .box1,
- .box2,
- .box3,
- .box4,
- .box5 {
+ .box {
      width: 220px;
      height: 300px;
      border-radius: 15px;
@@ -138,11 +134,7 @@
      position: relative;
  }
 
- .box1 span,
- .box2 span,
- .box3 span,
- .box4 span,
- .box5 span {
+ .box span {
      position: absolute;
      left: -10px;
      bottom: 10px;
@@ -151,28 +143,12 @@
      color: white;
  }
 
- .box1:hover {
+ .box:hover {
      animation: bounce 1s;
  }
 
- .box2:hover {
-     animation: bounce 1s;
- }
-
- .box3:hover {
-     animation: bounce 1s;
- }
-
- .box4:hover {
-     animation: bounce 1s;
- }
-
- .box5:hover {
-     animation: bounce 1s;
- }
-
- .c1 h2{
-    color: white;
+ .c1 h2 {
+     color: white;
  }
 
  .cards {
