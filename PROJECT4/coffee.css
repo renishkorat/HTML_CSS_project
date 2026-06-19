@@ -45,9 +45,6 @@ body{
     color: black;
 }
 
-.nav_menu{
-
-}
 
 
 /* Hero */
@@ -687,10 +684,7 @@ body{
         flex-direction: column;
         align-items: center;
     }
-/* 
-    .drink-box{
-        width: 90%;
-    } */
+
 
     /* Blog Section */
 
